@@ -1,0 +1,65 @@
+{
+  "id": "1672617",
+  "name": "data-monitors",
+  "font_family": "iconfont",
+  "css_prefix_text": "mon-",
+  "description": "大数据报警监控平台",
+  "glyphs": [
+    {
+      "icon_id": "7320866",
+      "name": "大屏",
+      "font_class": "daping",
+      "unicode": "e90a",
+      "unicode_decimal": 59658
+    },
+    {
+      "icon_id": "9293400",
+      "name": "报警",
+      "font_class": "icon-life-alarm",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10254247",
+      "name": "POS心跳",
+      "font_class": "heartbeat",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "14063653",
+      "name": "项目管理",
+      "font_class": "myProject-xiangmuguanli",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "1110430",
+      "name": "箭头右",
+      "font_class": "jiantouyou",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "3134323",
+      "name": "退出全屏",
+      "font_class": "compress",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "7533288",
+      "name": "全屏",
+      "font_class": "quanping",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7463942",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    }
+  ]
+}

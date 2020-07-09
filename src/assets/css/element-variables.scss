@@ -1,0 +1,200 @@
+ 
+// /*
+// 勿删！！！！
+// 此处为云化项目根据ui稿 改造的element-ui样式
+// */
+// /**
+// * I think element-ui's default theme color is too light for long-term use.
+// * So I modified the default color and you can modify it to your liking.
+// **/
+
+
+// /* theme color */
+// $--color-primary: $baseColor;
+// $--color-success: #52C41A;
+// $--color-warning: #FAAD14;
+// $--color-danger: #F5222D;
+// // $--color-info: #1E1E1E;
+
+// /* Button*/
+// $--button-font-weight: 400;
+// $--button-border-radius: 0;
+// $--button-font-size: 14px;
+// $--button-padding-vertical: 7px;
+// $--button-padding-horizontal: 20px;
+
+// $--border-color-light: #dfe4ed;
+// $--border-color-lighter: #e6ebf5;
+
+// $--table-border:1px solid#dfe6ec;
+
+// /* icon font path, required */
+// $--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+// @import "~element-ui/packages/theme-chalk/src/index";
+
+// // the :export directive is the magic sauce for webpack
+// // https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+// :export {
+//   theme: $--color-primary;
+// }
+
+// /* Link*/
+// $--link-color: $linkColor;
+// $--link-hover-color: $linkHoverColor;
+
+// /* Background*/
+// $--background-color-base: #f9f6f3;
+
+// /* Pagination*/
+// $--pagination-font-size:12px;
+
+// // 对element-ui的组件样式重写
+
+// body {
+
+//   /*--------------------el-input样式重置---------------------*/
+//   .el-input {
+//     line-height: 36px;
+//     .el-input__inner {
+//       height: 36px;
+//       line-height: 36px;
+//       border-radius: 2px;
+//     }
+//   }
+
+//   /*--------------------el-form样式重置---------------------*/
+//   .el-form {
+//     &::after {
+//       content: '';
+//       clear: both;
+//       display: block;
+//       height: 0;
+//       overflow: hidden;
+//     }
+//     .el-form-item {
+//       margin-bottom: 15px;
+//       margin-right: 0px;
+//       .el-form-item__label {
+//         line-height: 36px;
+//         color: $titleColor;
+//         padding: 0; // padding: 0 20px 0 0
+//       }
+//       .el-form-item__content {
+//         // height: 36px;
+//         line-height: 36px;
+//         .el-autocomplete,
+//         .el-select,
+//         .el-date-editor,
+//         .el-input {
+//           width: 100%;
+//         }
+//         .el-input__inner {
+//           border-radius: 0;
+//         }
+//       }
+//     }
+
+//   }
+
+//   /*--------------------el-button样式重置---------------------*/
+//   .el-button {
+//     span {
+//       display: block;
+//       line-height: 20px;
+//     }
+//   }
+
+//   /*--------------------el-radio样式重置---------------------*/
+//   .el-checkbox {
+//     .el-checkbox__inner {
+//       width: 16px;
+//       height: 16px;
+//       &::after {
+//         height: 8px;
+//         left: 5px;
+//       }
+//     }
+//   }
+
+//   /*--------------------el-radio样式重置---------------------*/
+//   .el-radio {
+//     .el-radio__input {
+//       .el-radio__inner {
+//         border-color: #CECECE;
+//         height: 16px;
+//         width: 16px;
+//       }
+//     }
+//     .el-radio__input.is-checked+.el-radio__label {
+//       color: #606266;
+//     }
+//     .is-checked .el-radio__inner {
+//       border-color: $baseColor;
+//       background-color: #fff;
+//     }
+//     .el-radio__inner::after {
+//       width: 8px;
+//       height: 8px;
+//       border-radius: 50%;
+//       background-color: $baseColor;
+//       content: "";
+//       position: absolute;
+//       left: 50%;
+//       top: 50%;
+//       -webkit-transform: translate(-50%, -50%) scale(0);
+//       transform: translate(-50%, -50%) scale(0);
+//       -webkit-transition: transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6);
+//       transition: transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6);
+//     }
+//     .el-radio__label {
+//       line-height: 22px;
+//       height: 22px;
+//       padding-left: 8px;
+//     }
+//   }
+
+//   /*--------------------el-radio-group样式重置---------------------*/
+//   .el-radio-group {
+//     .el-radio-button__inner {
+//       border-color: $baseColor;
+//       color: $baseColor;
+//       padding: 10px 20px;
+//     }
+//     .el-radio-button:first-child .el-radio-button__inner {
+//       border-radius: 2px 0 0 2px;
+//     }
+//     .el-radio-button:last-child .el-radio-button__inner {
+//       border-radius: 0 2px 2px 0;
+//     }
+//   }
+
+//   /*--------------------el-tag样式重置---------------------*/
+//   .el-tag {
+//     height: 36px;
+//     background: none;
+//     line-height: 36px;
+//     border: $borderLine;
+//     color: $textColor;
+//     border-radius: 2px;
+//     .el-tag__close {
+//       color: $textColor;
+//     }
+//   }
+
+//   /*--------------------el-date-picker样式重置---------------------*/
+//   .el-date-picker {
+//     .el-date-table td span {
+//       border-radius: 2px;
+//     }
+//   }
+
+//   /*--------------------el-dialog样式重置---------------------*/
+//   .el-dialog {
+//     .el-dialog__footer {
+//       box-shadow: 0 -5px 5px -5px #999;
+//       text-align: center;
+//     }
+//   }
+
+// }
